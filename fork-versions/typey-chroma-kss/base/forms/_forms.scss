@@ -27,7 +27,6 @@ textarea {
   @include line-height(1);
   font-size: 100%;
   // Keep form elements constrained in their containers.
-  box-sizing: border-box;
   max-width: 100%;
   // Remove the margin in Firefox and Safari.
   margin: 0;
@@ -172,8 +171,6 @@ input {
 
 [type='checkbox'],
 [type='radio'] {
-  // Add the correct box sizing in IE 10-.
-  box-sizing: border-box;
   // Remove the padding in IE 10-.
   padding: 0;
 }
@@ -196,7 +193,6 @@ fieldset {
 
 legend {
   // Correct the text wrapping in Edge and IE.
-  box-sizing: border-box;
   display: table;
   max-width: 100%;
   // Align legend text with a fieldset's text while removing left padding so
